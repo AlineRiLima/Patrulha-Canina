@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Patrulha Canina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&family=Poppins:ital,wght@0,500;0,800;1,300&display=swap" rel="stylesheet"/>
+
+<link rel="stylesheet" href="./src/CSS/reset.css">
+<link rel="stylesheet" href="./src/CSS/estilos.css">
+<link rel="stylesheet" href="./src/CSS/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/patrulha-canina-logo.png" alt="Logo-patrulha-canina">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um Personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="chase" data-name="chase" data-description="Usando seu caminhão da polícia e megafone, este pastor-alemão é um líder natural e atlético que gosta de assumir o comando.
+                Chase pode estar no caso, mas ele tem que tomar cuidado com gatos e penas, porque ele é alérgico a elas. Seus lemas são:
+                O Chase está no caso, Essas patinhas apoiam as leis! ou O super espião Chase está no caso, na versão de espião.">
+                    <img src="./src/imagens/5 chase.jpg" alt="personagem chase">
+                </li>
+                <li  class="personagem" id="Everest" data-name="Everest" data-description="Everest é uma divertida filhote Husky Siberiana e uma membra da Patrulha Canina. 
+                Ela vive com Jake em sua montanha de neve em Carson City, Alasca, Canadá ou Groelândia e sua brincadeira favorita é deslizar de barriga,
+                 seja no gelo ou na neve. Seu lema é Geando ou Nevando, já estou chegando">
+                    <img src="./src/imagens/3 Everest.jpg" alt="personagem Everest">
+                </li>
+                <li  class="personagem" id="Marshall" data-name="Marshall" data-description="Do quartel para seu carro de bombeiros, Marshall é um dálmata super ativo, sempre animado e também o mais desajeitado do grupo. Os filhotes sempre vão ouvi-lo dizer: Eu estou bem!. 
+                Seu lema é: Pronto para um resgate ou também Pode contar comigo">
+                    <img src="./src/imagens/6 Marshall.jpg"  alt="personagem Marshall">
+                </li>
+                <li  class="personagem" id="Rocky" data-name="Rocky" data-description="Rocky é um filhote mestiço de Terrier Escocês e Schnauzer que sempre tem recursos úteis.
+                Ele é um cão entusiasmado com reciclagem e que tem mil ideias e ferramentas dentro de sua mochila. Ele costuma ficar longe da água, pois não gosta de ficar molhado. 
+               Seus lemas são: Verde significa Siga e Não perca, reutilize. É o melhor amigo de Zuma.">
+                    <img src="./src/imagens/2 Rocky.jpg" alt="personagem Rocky">
+                </li>
+                <li  class="personagem" id="Rubble" data-name="Rubble" data-description="Rubble é um pouco rude, mas é um Bulldog Inglês adorável que sabe tudo sobre skates e pranchas de snowboard.
+                Ele gosta de se sujar e depois correr para um banho.
+                Não há trabalho que sua escavadora de construção não seja capaz de fazer. Seu lema é: Rubble está a postos">
+                    <img src="./src/imagens/8 Rubble.jpg" alt="personagem Rubble">
+                </li>
+                <li  class="personagem" id="Ryder" data-name="Ryder" data-description=" Ryder é o humano líder dos filhotes. Tem um bom coração, está sempre disposto a socorrer todos que precisam de ajuda. 
+                É ele quem recebe os pedidos de socorro e convoca a Patrulha Canina, escalando os filhotes certos para cada tarefa. Durante as missões de resgate, Ryder pilota um quadriciclo que também se transforma em um jet-ski e em uma moto de neve.
+                 Seu lema é Nenhum trabalho é tão grande, nenhum filhote é tão pequeno!">
+                    <img src="./src/imagens/4 Ryder.jpg" alt="personagem Ryder">
+                </li>
+                <li  class="personagem" id="skye" data-name="skye" data-description="Skye é uma destemida e inteligente Cockapoo que adora voar em seu helicóptero ou com as asas de sua mochila.
+                Ela tenta de tudo com jeitinho, graça e um belo sorriso. Seu lema é: Vamos levantar voo e Esse filhote vai voar!">
+                    <img src="./src/imagens/7 skye.jpg" alt="Personagem skye">
+                </li>
+                <li class="personagem" id="zuma" data-name="zuma" data-description="Amigo da água, este Labrador Chocolate gosta de rir e surfar.
+                Ele entra nas aventuras em seu bote inflável. Seu lema é: Vamos mergulhar. É é o melhor amigo de Rocky.">
+                    <img src="./src/imagens/1zuma.jpg" alt="Personagem zuma">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-chase.png" alt="personagem selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">chase</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Usando seu caminhão da polícia e megafone, este pastor-alemão é um líder natural e atlético que gosta de assumir o comando.
+                    Chase pode estar no caso, mas ele tem que tomar cuidado com gatos e penas, porque ele é alérgico a elas. Seus lemas são:
+                    O Chase está no caso, Essas patinhas apoiam as leis! ou O super espião Chase está no caso, na versão de espião.</p>
+            </div>
+            
+            
+
+           
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
